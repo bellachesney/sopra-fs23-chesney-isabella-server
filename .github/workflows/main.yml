@@ -13,7 +13,7 @@ jobs:
   deploy:
     name: Deploying to Google Cloud
     runs-on: ubuntu-latest
-    needs: test
+
 
     steps:
       - name: Checkout
